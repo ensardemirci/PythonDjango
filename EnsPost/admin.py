@@ -8,7 +8,7 @@ class PostAdmin(admin.ModelAdmin):
     list_display_links = ['publishing_date'] # tarihe ve başlığa tıklayıp içine girilebilsin
     list_filter = ['publishing_date'] # filtreleme eklendi
     search_fields = ['title', 'content'] # arama çubuğu eklendi
-    list_editable = ['title'] # listeden başlıkları değiştirmek için 
+    list_editable = ['title'] # listeden başlıkları değiştirmek için
 
     class Meta:
         model = Post
