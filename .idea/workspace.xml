@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="70404680-831e-4619-98dd-c7a3f3ccca99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsPost/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsPost/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnsPost/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsPost/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnsPost/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsPost/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +39,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Ensar Belgeleri\PythonDjango" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.views">
+  <component name="RunManager" selected="Python.settings">
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,6 +130,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579010486708" />
+    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1580027513736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1580027513736" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579383229279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -166,9 +170,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579382830282" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1579382912913">
+    <state x="461" y="163" key="SettingsEditor" timestamp="1580026916358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579382912913" />
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1580026916358" />
   </component>
 </project>
