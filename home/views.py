@@ -12,6 +12,3 @@ def home_view(request):
         }
     return render(request,'home.html',context)
 
-
-def deneme_view(request):
-    return HttpResponse('<b>Deneme Sayfasına Hoş Geldiniz</b>')

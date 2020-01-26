@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70404680-831e-4619-98dd-c7a3f3ccca99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python Django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsBlog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnsBlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsBlog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -154,7 +148,7 @@
       <updated>1579006000459</updated>
       <workItem from="1580031043121" duration="6482000" />
       <workItem from="1580040530587" duration="177000" />
-      <workItem from="1580040717988" duration="4741000" />
+      <workItem from="1580040717988" duration="6104000" />
     </task>
     <servers />
   </component>
