@@ -19,7 +19,7 @@ from home.views import home_view,deneme_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home_view),
+    path('', home_view, name= 'home'),
     path('deneme', deneme_view),
     path('post/',include('EnsPost.urls'))
 ]
