@@ -5,27 +5,43 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 offset-6" >
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  {% if request.user.is_authenticated %}
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'post:create' %}">Yazı Ekle</a>
+                  </li>
+                  {% endif %}
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'home' %}">Anasayfa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'post:index' %}">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Hakkımda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">İletişim</a>
+                  </li>
+
+                </ul>
+
+                    <form class="form-inline my-2 my-lg-0 ">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Arama" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Ara</button>
+                    </form>
+
+              </div>
 
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="{% url 'home' %}">Anasayfa</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{% url 'post:index' %}">Blog</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Hakkımda</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">İletişim</a>
-      </li>
-
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Arama" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Ara</button>
-    </form>
+        </div>
+    </div>
+</div>
 
 
 </nav>

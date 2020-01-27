@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse, get_object_or_404, HttpResponseRedirect,redirect
+from django.shortcuts import render, HttpResponse, get_object_or_404, HttpResponseRedirect,redirect, Http404
 from .models import Post
 from .forms import PostForm
 from django.contrib import messages
@@ -18,7 +18,9 @@ def post_detail(request, id):
 
 
 def post_create(request):
-    form = PostForm(request.POST or None)
+    if request.user.is_authenticated == False:
+        return Http404()
+    form = PostForm(request.POST or None, request.FILES or None)
     if form.is_valid():
         post = form.save()
         messages.success(request, 'Başarılı bir şekilde oluşturdunuz.')
@@ -31,8 +33,11 @@ def post_create(request):
 
 
 def post_update(request,id):
+    if request.user.is_authenticated == False:
+        return Http404()
+
     post = get_object_or_404(Post, id=id)
-    form = PostForm(request.POST or None, instance=post)
+    form = PostForm(request.POST or None, request.FILES or None,  instance=post)
     if form.is_valid():
         form.save()
         messages.success(request, 'Başarılı bir şekilde oluşturdunuz.', extra_tags='mesaj-basarili')
@@ -44,6 +49,9 @@ def post_update(request,id):
 
 
 def post_delete(request,id):
+    if request.user.is_authenticated == False:
+        return Http404()
+
     post = get_object_or_404(Post, id=id)
     post.delete()
     return redirect('post:index')
