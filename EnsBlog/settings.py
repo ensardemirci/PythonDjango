@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     # 3.Parti uygulamalar
     'crispy_forms',
     'django_cleanup',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,11 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        #'toolbar': 'full',
+        #'height': 300,
+        'width': '100%',
+    },
+}
