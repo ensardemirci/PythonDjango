@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="70404680-831e-4619-98dd-c7a3f3ccca99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsBlog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsPost/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsPost/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsPost/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsPost/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnsBlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsBlog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnsPost/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsPost/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -166,7 +165,8 @@
       <workItem from="1580040717988" duration="6196000" />
       <workItem from="1580109963873" duration="13344000" />
       <workItem from="1580798157290" duration="6004000" />
-      <workItem from="1580978128503" duration="5840000" />
+      <workItem from="1580978128503" duration="6440000" />
+      <workItem from="1581023634999" duration="4183000" />
     </task>
     <servers />
   </component>
@@ -230,5 +230,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="192" key="SettingsEditor/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1580978862984" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581024950543">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1581024950543" />
   </component>
 </project>
