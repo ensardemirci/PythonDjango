@@ -4,23 +4,20 @@
     <list default="true" id="70404680-831e-4619-98dd-c7a3f3ccca99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnsBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsBlog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsPost/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsPost/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsPost/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsPost/migrations/0002_auto_20200119_1519.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsPost/migrations/0003_post_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsPost/migrations/0004_auto_20200127_1501.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnsPost/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsPost/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnsPost/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsPost/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsPost/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsPost/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnsPost/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsPost/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/post/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,6 +30,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1WO1oL6yjPTKMp1ucPuqopZZqV4" />
   <component name="ProjectLevelVcsManager">
@@ -57,7 +60,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -162,6 +166,7 @@
       <workItem from="1580040717988" duration="6196000" />
       <workItem from="1580109963873" duration="13344000" />
       <workItem from="1580798157290" duration="6004000" />
+      <workItem from="1580978128503" duration="5840000" />
     </task>
     <servers />
   </component>
@@ -169,6 +174,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Inspections" timestamp="1580978751347">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Inspections/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1580978751347" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579378976035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -217,9 +226,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1580127982654" />
-    <state x="688" y="192" key="SettingsEditor" timestamp="1580041275175">
+    <state x="688" y="192" key="SettingsEditor" timestamp="1580978862984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="688" y="192" key="SettingsEditor/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1580041275175" />
+    <state x="688" y="192" key="SettingsEditor/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1580978862984" />
   </component>
 </project>

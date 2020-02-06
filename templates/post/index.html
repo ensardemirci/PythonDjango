@@ -25,6 +25,25 @@
             </div>
         </div>
     {% endfor %}
+        <div class="row" >
+            <div class="col-md-6 offset-3" style="margin-bottom: 10px">
+                <div class="pagination">
+                    <span class="step-links">
+                        {% if posts.has_previous %}
+                            <a href="?sayfa={{ posts.previous_page_number }}">Geri</a>
+                        {% endif %}
+
+                        <span class="current">
+                            Sayfa {{ posts.number }} / {{ posts.paginator.num_pages }}.
+                        </span>
+
+                        {% if posts.has_next %}
+                            <a href="?sayfa={{ posts.next_page_number }}">İleri</a>
+                        {% endif %}
+                    </span>
+                </div>
+             </div>
+         </div>
 
     </div>
 {% endblock %}
